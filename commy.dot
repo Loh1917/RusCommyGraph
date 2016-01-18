@@ -1,8 +1,9 @@
 digraph commy {
 	newrank=true
 	ranksep=.75; size = "7.5,7.5";
+	fontname=Helvetica;
 	rankdir=TB;
-	node [shape=plaintext, fontsize=16];
+	node [shape=plaintext, fontsize=16, fontname=Helvetica];
 
 	subgraph Years{
 		1987 -> 1988 -> 1989 -> 
@@ -50,7 +51,7 @@ digraph commy {
 	
 	subgraph clusterLO {
 		color=red;
-		label="Лютте Увриер";
+		label="UCI\nLutte ouvrière";
 		{node [shape=box];
 			"РПЯ", "РПЯ91", "LO95" 
 		}
